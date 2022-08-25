@@ -1,0 +1,43 @@
+CREATE TABLE recommendations (
+id VARCHAR(36) PRIMARY KEY, 
+name TINYTEXT NOT NULL, 
+email TINYTEXT NOT NULL, 
+company TINYTEXT NOT NULL,
+designation TINYTEXT NOT NULL,
+message TINYTEXT NOT NULL, 
+onShowcase BOOL DEFAULT false);
+
+
+CREATE TABLE skills (
+id VARCHAR(36) PRIMARY KEY, 
+imageUrl TINYTEXT NOT NULL, 
+name TINYTEXT NOT NULL, 
+starsTotal TINYINT NOT NULL, 
+starsActive TINYINT NOT NULL);
+
+
+CREATE TABLE projects (
+id VARCHAR(36) PRIMARY KEY,
+    imageUrl TINYTEXT NOT NULL, 
+             title TINYTEXT NOT NULL, 
+             excerpt TINYTEXT NOT NULL, 
+             body TEXT NOT NULL, 
+             isPublished BOOL DEFAULT true, 
+             lastModified DATETIME NOT NULL);
+
+
+CREATE TABLE blogs (
+id VARCHAR(36) PRIMARY KEY,
+    imageUrl TINYTEXT NOT NULL, 
+             title TINYTEXT NOT NULL, 
+             excerpt TINYTEXT NOT NULL, 
+             body TEXT NOT NULL, 
+             isPublished BOOL DEFAULT true, 
+             lastModified DATETIME NOT NULL);
+
+
+CREATE TABLE contact (
+name TINYTEXT NOT NULL, 
+email TINYTEXT NOT NULL, 
+description TINYTEXT NOT NULL, 
+contactDateTime DATETIME NOT NULL);

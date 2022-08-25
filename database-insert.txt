@@ -1,0 +1,13 @@
+INSERT INTO recommendations VALUES (1, "Random guy 1", "randomemail1@gmail.com", "ABC company", "CEO", "He is a good engineer", true),
+(2, "Random guy 2", "randomemail2@gmail.com", "ABC company", "Director", "He is a lazy person", true),
+(3, "Random guy 3", "randomemail3@gmail.com", "ABC company", "Manager", "He is an excellent developer", true),
+(4, "Random guy 4", "randomemail4@gmail.com", "ABC company", "SDE", "He gets things done so quickly", true);
+
+INSERT INTO skills VALUES ('1','https://storage.googleapis.com/unschool-portfolio-website/html5.png','HTML5',3,2),
+('2','https://storage.googleapis.com/unschool-portfolio-website/css3.png','CSS3',3,3),
+('3','https://storage.googleapis.com/unschool-portfolio-website/javascript.png','Javascript',3,1),
+('4','https://storage.googleapis.com/unschool-portfolio-website/bootstrap4.png','Bootstrap4',3,3),
+('5','https://storage.googleapis.com/unschool-portfolio-website/react.png','ReactJs',3,2),
+('6','https://storage.googleapis.com/unschool-portfolio-website/mysql.png','MySQL',3,2),
+('7','https://storage.googleapis.com/unschool-portfolio-website/python.png','Python',3,3),
+('8','https://storage.googleapis.com/unschool-portfolio-website/flask.png','Flask',3,1);
