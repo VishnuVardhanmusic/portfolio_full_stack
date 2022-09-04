@@ -14,7 +14,6 @@ function HomePage() {
       <SkillsSection />
       <ProjectSection />
       <About />
-      <BlogSection />
     </div>
   );
 }

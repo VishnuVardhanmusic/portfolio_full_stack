@@ -20,7 +20,7 @@ function Footer() {
           <div className="col-12 col-md-4 py-3">
             <h5 className="text-info pb-3">More links</h5>
             <a href="/" className="text-light d-block">
-              Blogs
+              Videos
             </a>
             <Link to="/" className="text-light d-block">
               Home
@@ -32,20 +32,12 @@ function Footer() {
               Contact me
             </Link>
             <Link to="/write-a-recommendation" className="text-light">
-              Write a recommendation <i className="fas fa-heart text-light"></i>
+              Buy a Coffee<i className="fas fa-heart text-light"></i>
             </Link>
           </div>
           <div className="col-12 col-md-4 text-light text-justify py-3">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Curabitur pretium tincidunt lacus nulla gravida orci a odio sit
-              aliquip ut nullam.
+            I thrive on challenge and constantly set goals for myself, so I have something to strive towards. I am not comfortable with settling, and I am always looking for an opportunity to do better and achieve greatness.
             </p>
           </div>
           <div className="col-12 col-md-4 py-3">
@@ -62,7 +54,7 @@ function Footer() {
           </div>
         </div>
         <div className="text-muted py-3">
-          <p>Copyright © Manikumar Perla 2020</p>
+          <p>Copyright © Y Vishnu Vardhan  2022</p>
         </div>
       </div>
     </footer>

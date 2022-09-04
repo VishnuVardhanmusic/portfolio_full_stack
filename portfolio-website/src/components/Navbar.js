@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-md fixed-top bg-white">
       <div className="container my-2">
         <Link to="/" className="navbar-brand text-dark font-weight-bold">
-          YOUR NAME
+        In order to be irreplaceable, one must always be <span className="text-info">Unique</span>
         </Link>
         <Link to="/contact" className="ml-auto mx-3">
           <button className="btn btn-outline-info">Contact me</button>
