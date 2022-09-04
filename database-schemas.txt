@@ -15,7 +15,7 @@ name TINYTEXT NOT NULL,
 starsTotal TINYINT NOT NULL, 
 starsActive TINYINT NOT NULL);
 
-m
+
 CREATE TABLE projects (
 id VARCHAR(36) PRIMARY KEY,
     imageUrl TINYTEXT NOT NULL, 
